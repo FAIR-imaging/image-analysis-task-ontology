@@ -2446,7 +2446,7 @@ imzML metadata file (.imzML, http://edamontology.org/format_3682).</rdfs:comment
     
 
 
-    <!-- http://edamontology.org/operation_Distance_transform -->
+    <!-- https://w3id.org/ima/operation_Distance_transform -->
 
     <owl:Class rdf:about="https://w3id.org/ima/operation_Distance_transform">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Morphological_operations"/>
@@ -2480,7 +2480,7 @@ Signed distance transform assigns, to each pixel, its distance to the object bou
     
 
 
-    <!-- http://edamontology.org/operation_Erosion -->
+    <!-- https://w3id.org/ima/operation_Erosion -->
 
     <owl:Class rdf:about="https://w3id.org/ima/operation_Erosion">
         <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Morphological_operations"/>
@@ -2513,10 +2513,10 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Geometrical_transform -->
+    <!-- https://w3id.org/ima/operation_Geometrical_transform -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Geometrical_transform">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Geometrical_transform">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasExactSynonym>Geometrical transformation</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -2527,10 +2527,10 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Homogeneity -->
+    <!-- https://w3id.org/ima/operation_Homogeneity -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Homogeneity">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Feature_extraction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Homogeneity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Feature_extraction"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2539,10 +2539,10 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Illumination_correction -->
+    <!-- https://w3id.org/ima/operation_Illumination_correction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Illumination_correction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Illumination_correction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <related_term>Background subtraction</related_term>
         <oboInOwl:hasExactSynonym>Flat field correction</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2553,9 +2553,9 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_classification -->
+    <!-- https://w3id.org/ima/operation_Image_classification -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_classification">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_classification">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2990"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <related_term>Image clustering</related_term>
@@ -2569,10 +2569,10 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_colocalization -->
+    <!-- https://w3id.org/ima/operation_Image_colocalization -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_colocalization">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Colocalisation_analysis"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_colocalization">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Colocalisation_analysis"/>
         <oboInOwl:hasExactSynonym>Object-based co-localisation analysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Object-based colocalization analysis</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2583,10 +2583,10 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_deconvolution -->
+    <!-- https://w3id.org/ima/operation_Image_deconvolution -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_deconvolution">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_deconvolution">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2595,10 +2595,10 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_enhancement -->
+    <!-- https://w3id.org/ima/operation_Image_enhancement -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_enhancement">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_enhancement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasNarrowSynonym>Image restoration</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -2609,9 +2609,9 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_processing -->
+    <!-- https://w3id.org/ima/operation_Image_processing -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_processing">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_processing">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2641,11 +2641,11 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_reconstruction -->
+    <!-- https://w3id.org/ima/operation_Image_reconstruction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_reconstruction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__RDFFD5jBfUw74a3vJeBAGB1"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_reconstruction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__RDFFD5jBfUw74a3vJeBAGB1"/>
         <oboInOwl:hasNarrowSynonym>Image restoration</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -2656,11 +2656,11 @@ Grey scale erosion computed in an image point is the minimum of the intensities 
     
 
 
-    <!-- http://edamontology.org/operation_Image_registration -->
+    <!-- https://w3id.org/ima/operation_Image_registration -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_registration">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_registration">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2928"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasBroadSynonym>Image overlay</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDefinition>Image registration is the process of aligning, by applying geometric transformation, two or more misaligned images.</oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>Image alignment</oboInOwl:hasExactSynonym>
@@ -2676,11 +2676,11 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Image_segmentation -->
+    <!-- https://w3id.org/ima/operation_Image_segmentation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_segmentation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_segmentation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2690,10 +2690,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Image_smoothing -->
+    <!-- https://w3id.org/ima/operation_Image_smoothing -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_smoothing">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_enhancement"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_smoothing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_enhancement"/>
         <oboInOwl:hasNarrowSynonym>Gaussian blurring</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Gaussian filtering</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Gaussian smoothing</oboInOwl:hasNarrowSynonym>
@@ -2707,10 +2707,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Image_stitching -->
+    <!-- https://w3id.org/ima/operation_Image_stitching -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_stitching">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_stitching">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
         <related_term>Tile</related_term>
         <related_term>Tiling</related_term>
         <oboInOwl:hasRelatedSynonym>Mosaic</oboInOwl:hasRelatedSynonym>
@@ -2722,10 +2722,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Image_thresholding -->
+    <!-- https://w3id.org/ima/operation_Image_thresholding -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_thresholding">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_thresholding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <oboInOwl:hasExactSynonym>Thresholding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Clustering-based image thresholding</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2736,9 +2736,9 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Image_tracking -->
+    <!-- https://w3id.org/ima/operation_Image_tracking -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_tracking">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_tracking">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <oboInOwl:hasExactSynonym>Tracking</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Trajectory extraction</oboInOwl:hasNarrowSynonym>
@@ -2750,9 +2750,9 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Image_visualisation -->
+    <!-- https://w3id.org/ima/operation_Image_visualisation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Image_visualisation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Image_visualisation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0337"/>
         <oboInOwl:hasExactSynonym>Rendering</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Lookup table</oboInOwl:hasNarrowSynonym>
@@ -2765,10 +2765,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Interactive_segmentation -->
+    <!-- https://w3id.org/ima/operation_Interactive_segmentation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Interactive_segmentation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Interactive_segmentation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2777,10 +2777,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Linear_transformation -->
+    <!-- https://w3id.org/ima/operation_Linear_transformation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Linear_transformation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R8ANfLkuHu47r739AkhxrId"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Linear_transformation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R8ANfLkuHu47r739AkhxrId"/>
         <oboInOwl:hasNarrowSynonym>Image resampling</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -2790,10 +2790,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Montage -->
+    <!-- https://w3id.org/ima/operation_Montage -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Montage">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Montage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2802,10 +2802,10 @@ Registration can  be based on correspondence established between the landmarks o
     
 
 
-    <!-- http://edamontology.org/operation_Morphological_operations -->
+    <!-- https://w3id.org/ima/operation_Morphological_operations -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Morphological_operations">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Morphological_operations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <related_term>Mathematical morphology</related_term>
         <oboInOwl:hasDefinition>Mathematical morphology is a theory and technique for the analysis and processing of geometrical structures, based on set theory, lattice theory, topology, and random functions. MM is most commonly applied to digital images, but it can be employed as well on graphs, surface meshes, solids, and many other spatial structures.
 
@@ -2822,9 +2822,9 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Object_detection -->
+    <!-- https://w3id.org/ima/operation_Object_detection -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Object_detection">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Object_detection">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <oboInOwl:hasExactSynonym>Image feature extraction</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2835,10 +2835,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Opening -->
+    <!-- https://w3id.org/ima/operation_Opening -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Opening">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Morphological_operations"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Opening">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Morphological_operations"/>
         <oboInOwl:hasDefinition>Opening is a morphological operation comprising a dilation followed by an erosion, that is typically used to remove small isolated objects from an image.</oboInOwl:hasDefinition>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -2849,9 +2849,9 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Optical_flow_analysis -->
+    <!-- https://w3id.org/ima/operation_Optical_flow_analysis -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Optical_flow_analysis">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Optical_flow_analysis">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <oboInOwl:hasDefinition>The process of estimating apparent (relative) motion in an image or scene, typically represented as vector field.</oboInOwl:hasDefinition>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2864,10 +2864,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Overlay -->
+    <!-- https://w3id.org/ima/operation_Overlay -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Overlay">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Overlay">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2876,10 +2876,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Particle_tracking -->
+    <!-- https://w3id.org/ima/operation_Particle_tracking -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Particle_tracking">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__RDsrmC9l0bZw9kGJzGMCyY8"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Particle_tracking">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__RDsrmC9l0bZw9kGJzGMCyY8"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2888,11 +2888,11 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Pixel_classification -->
+    <!-- https://w3id.org/ima/operation_Pixel_classification -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Pixel_classification">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Pixel_classification">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2990"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <oboInOwl:hasExactSynonym>Pixel labeling</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Voxel classification</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Semantic image segmentation</oboInOwl:hasNarrowSynonym>
@@ -2903,10 +2903,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Projection -->
+    <!-- https://w3id.org/ima/operation_Projection -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Projection">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Projection">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <oboInOwl:hasExactSynonym>Maximum projection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Minimum projection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Maximum intensity projection</oboInOwl:hasNarrowSynonym>
@@ -2919,10 +2919,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Rotation -->
+    <!-- https://w3id.org/ima/operation_Rotation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Rotation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R8ANfLkuHu47r739AkhxrId"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Rotation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R8ANfLkuHu47r739AkhxrId"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -2931,10 +2931,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Shape_features -->
+    <!-- https://w3id.org/ima/operation_Shape_features -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Shape_features">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Feature_extraction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Shape_features">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Feature_extraction"/>
         <oboInOwl:hasExactSynonym>Shape feature extraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Area</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2945,10 +2945,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Skeletonization -->
+    <!-- https://w3id.org/ima/operation_Skeletonization -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Skeletonization">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Morphological_operations"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Skeletonization">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Morphological_operations"/>
         <oboInOwl:hasDefinition>Skeletonisation is a process for generating fogroundreducing foreground regions in a binary image to a skeletal remnant that largely preserves the extent and connectivity of the original region while throwing away most of the original foreground pixels</oboInOwl:hasDefinition>
         <oboInOwl:hasDefinition>Skeletonisation is a process of reducing a foreground region in a (binary) image into its simplified, topologically equivalent representation - skeleton. The new representation contains highly reduced number of foreground pixels, while largely preserving the extent and connectivity of the original region.</oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>Medial axis transform</oboInOwl:hasNarrowSynonym>
@@ -2960,24 +2960,24 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Spot_extraction -->
+    <!-- https://w3id.org/ima/operation_Spot_extraction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Spot_extraction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Object_detection"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Spot_extraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Object_detection"/>
         <oboInOwl:hasNarrowSynonym>Seed point detection</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
         <rdfs:label>Spot detection</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://edamontology.org/operation____Top-hat_transform"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/ima/operation____Top-hat_transform"/>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_Texture_extraction -->
+    <!-- https://w3id.org/ima/operation_Texture_extraction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Texture_extraction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Feature_extraction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Texture_extraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Feature_extraction"/>
         <oboInOwl:hasExactSynonym>Texture feature extraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Inverse Difference Moment</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -2988,10 +2988,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Volume_rendering -->
+    <!-- https://w3id.org/ima/operation_Volume_rendering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Volume_rendering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Volume_rendering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3000,23 +3000,23 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation_Warping -->
+    <!-- https://w3id.org/ima/operation_Warping -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Warping">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Geometrical_transform"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Warping">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Geometrical_transform"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
         <rdfs:label>Warping</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://edamontology.org/operation__RCPVGO34XrwrJasQ5yWBg9k"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/ima/operation__RCPVGO34XrwrJasQ5yWBg9k"/>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_Watershed -->
+    <!-- https://w3id.org/ima/operation_Watershed -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_Watershed">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation____Region_growing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_Watershed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation____Region_growing"/>
         <oboInOwl:hasBroadSynonym>Watershed transformation</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>Watershed-based segmentation</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3025,17 +3025,17 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
         <rdfs:comment>Needs a comment about the relation between the Watershed and Region growing.</rdfs:comment>
         <rdfs:comment>Watershed is the term that commonly refers to a mathematical morphology operation that treats a grayscale image as a topographic map and segments the image. The segmentation is performed by a succesive &apos;flooding&apos; operation from minima in the image starting from different points and separates the image in different catchment basins.</rdfs:comment>
         <rdfs:label>Watershed segmentation</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://edamontology.org/operation_Morphological_operations"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/ima/operation_Morphological_operations"/>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Region_growing"/>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Watershed_(image_processing)"/>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation__R1NVO6hpWWcs99UiEFiOfK -->
+    <!-- https://w3id.org/ima/operation__R1NVO6hpWWcs99UiEFiOfK -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R1NVO6hpWWcs99UiEFiOfK">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R1NVO6hpWWcs99UiEFiOfK">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
         <oboInOwl:hasExactSynonym>Tomography reconstruction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Filtered back projection</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3046,10 +3046,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R3BGvVm77d5vFMF6f28ZiW -->
+    <!-- https://w3id.org/ima/operation__R3BGvVm77d5vFMF6f28ZiW -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R3BGvVm77d5vFMF6f28ZiW">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R3BGvVm77d5vFMF6f28ZiW">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <oboInOwl:hasNarrowSynonym>Lens distortion correction</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3059,10 +3059,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0 -->
+    <!-- https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasDefinition>Image correction is the removal of aberrations originating from the imaging instrument, lighting, or sample.</oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>Instrument aberration correction</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasRelatedSynonym>Image pre-processing</oboInOwl:hasRelatedSynonym>
@@ -3075,10 +3075,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R7qn3VpJyCAPGqdW6ia3h2d -->
+    <!-- https://w3id.org/ima/operation__R7qn3VpJyCAPGqdW6ia3h2d -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R7qn3VpJyCAPGqdW6ia3h2d">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R7qn3VpJyCAPGqdW6ia3h2d">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <oboInOwl:hasRelatedSynonym>Color deconvolution</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3088,10 +3088,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R8ANfLkuHu47r739AkhxrId -->
+    <!-- https://w3id.org/ima/operation__R8ANfLkuHu47r739AkhxrId -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R8ANfLkuHu47r739AkhxrId">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Geometrical_transform"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R8ANfLkuHu47r739AkhxrId">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Geometrical_transform"/>
         <oboInOwl:hasRelatedSynonym>Orthographic projection</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3101,11 +3101,11 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R8EfungVXA0oQM2Ac7YY5eu -->
+    <!-- https://w3id.org/ima/operation__R8EfungVXA0oQM2Ac7YY5eu -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R8EfungVXA0oQM2Ac7YY5eu">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__RBNng13hEB0CJD5VzSKqrfB"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R8EfungVXA0oQM2Ac7YY5eu">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__RBNng13hEB0CJD5VzSKqrfB"/>
         <oboInOwl:hasExactSynonym>Single molecule localization</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>PAINT image reconstruction</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>PALM image reconstruction</oboInOwl:hasNarrowSynonym>
@@ -3121,10 +3121,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R8V95OnTjs7fCvVXWjaXrh6 -->
+    <!-- https://w3id.org/ima/operation__R8V95OnTjs7fCvVXWjaXrh6 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R8V95OnTjs7fCvVXWjaXrh6">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R8V95OnTjs7fCvVXWjaXrh6">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3133,10 +3133,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R9EjejimBB0tmnQRmZt0RhA -->
+    <!-- https://w3id.org/ima/operation__R9EjejimBB0tmnQRmZt0RhA -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R9EjejimBB0tmnQRmZt0RhA">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_registration"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R9EjejimBB0tmnQRmZt0RhA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_registration"/>
         <oboInOwl:hasNarrowSynonym>Object registration</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Shape-based registration</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3148,10 +3148,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R9FvNkpDIaqZQhLVlPsHisj -->
+    <!-- https://w3id.org/ima/operation__R9FvNkpDIaqZQhLVlPsHisj -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R9FvNkpDIaqZQhLVlPsHisj">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__RDFFD5jBfUw74a3vJeBAGB1"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R9FvNkpDIaqZQhLVlPsHisj">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__RDFFD5jBfUw74a3vJeBAGB1"/>
         <oboInOwl:hasExactSynonym>Image simulation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Image synthesis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Simulated image generation</oboInOwl:hasExactSynonym>
@@ -3163,10 +3163,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R9Qf06vxvFj2UbAk7pW3IMG -->
+    <!-- https://w3id.org/ima/operation__R9Qf06vxvFj2UbAk7pW3IMG -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R9Qf06vxvFj2UbAk7pW3IMG">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R9Qf06vxvFj2UbAk7pW3IMG">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <related_term>Neuron reconstruction</related_term>
         <oboInOwl:hasExactSynonym>Tubular structure extraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Biofilament tracing</oboInOwl:hasNarrowSynonym>
@@ -3182,10 +3182,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__R9Vc5BV3ZMcLHEL6WEceXbY -->
+    <!-- https://w3id.org/ima/operation__R9Vc5BV3ZMcLHEL6WEceXbY -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__R9Vc5BV3ZMcLHEL6WEceXbY">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__RLtOI0poPsYRHzgXbAcr2E"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__R9Vc5BV3ZMcLHEL6WEceXbY">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__RLtOI0poPsYRHzgXbAcr2E"/>
         <oboInOwl:hasExactSynonym>Rigid image registration</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3197,9 +3197,9 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__RBNng13hEB0CJD5VzSKqrfB -->
+    <!-- https://w3id.org/ima/operation__RBNng13hEB0CJD5VzSKqrfB -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RBNng13hEB0CJD5VzSKqrfB">
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RBNng13hEB0CJD5VzSKqrfB">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <oboInOwl:hasNarrowSynonym>Isolated object detection</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Object localisation</oboInOwl:hasNarrowSynonym>
@@ -3213,10 +3213,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__RBPObKBKIMwjdLygBOlvojW -->
+    <!-- https://w3id.org/ima/operation__RBPObKBKIMwjdLygBOlvojW -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RBPObKBKIMwjdLygBOlvojW">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RBPObKBKIMwjdLygBOlvojW">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3225,10 +3225,10 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__RBUpi1JSczmHQSf8Q8fDzG5 -->
+    <!-- https://w3id.org/ima/operation__RBUpi1JSczmHQSf8Q8fDzG5 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RBUpi1JSczmHQSf8Q8fDzG5">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_tracking"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RBUpi1JSczmHQSf8Q8fDzG5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_tracking"/>
         <oboInOwl:hasRelatedSynonym>Scratch assay</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Scratch assay analysis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Wound healing analysis</oboInOwl:hasRelatedSynonym>
@@ -3241,9 +3241,9 @@ The basic morphological operators are erosion, dilation, opening and closing.</o
     
 
 
-    <!-- http://edamontology.org/operation__RBYLqCqN4rP7Jy5m5mxpTeM -->
+    <!-- https://w3id.org/ima/operation__RBYLqCqN4rP7Jy5m5mxpTeM -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RBYLqCqN4rP7Jy5m5mxpTeM">
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RBYLqCqN4rP7Jy5m5mxpTeM">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
         <related_term>FFT</related_term>
         <oboInOwl:hasDefinition>Frequency domain analysis  is a process that quantifies the various amounts  (e.g. amplitudes, powers, intensities, or phases), versus frequency. It requires decomposition a complex signal into a sum of many individual frequency components.</oboInOwl:hasDefinition>
@@ -3267,10 +3267,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation__RBh3vNecu5XlIPh3kbMM4Cq -->
+    <!-- https://w3id.org/ima/operation__RBh3vNecu5XlIPh3kbMM4Cq -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RBh3vNecu5XlIPh3kbMM4Cq">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RBh3vNecu5XlIPh3kbMM4Cq">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3279,26 +3279,26 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation__RCPVGO34XrwrJasQ5yWBg9k -->
+    <!-- https://w3id.org/ima/operation__RCPVGO34XrwrJasQ5yWBg9k -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RCPVGO34XrwrJasQ5yWBg9k">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_registration"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RCPVGO34XrwrJasQ5yWBg9k">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_registration"/>
         <oboInOwl:hasNarrowSynonym>Elastic registration</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
         <rdfs:label>Deformable registration</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.8649&amp;rep=rep1&amp;type=pdf"/>
-        <rdfs:seeAlso rdf:resource="http://edamontology.org/operation_Warping"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/ima/operation_Warping"/>
         <rdfs:seeAlso rdf:resource="http://hal.archives-ouvertes.fr/docs/00/68/47/15/PDF/RR-7919.pdf"/>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation__RCi5QWhY2hXnO46smg6bHRQ -->
+    <!-- https://w3id.org/ima/operation__RCi5QWhY2hXnO46smg6bHRQ -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RCi5QWhY2hXnO46smg6bHRQ">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RCi5QWhY2hXnO46smg6bHRQ">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3308,9 +3308,9 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation__RDFFD5jBfUw74a3vJeBAGB1 -->
+    <!-- https://w3id.org/ima/operation__RDFFD5jBfUw74a3vJeBAGB1 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDFFD5jBfUw74a3vJeBAGB1">
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDFFD5jBfUw74a3vJeBAGB1">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3429"/>
         <oboInOwl:hasExactSynonym>Image synthesis</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3322,9 +3322,9 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation__RDetoixS3xEu0agR2CebaoB -->
+    <!-- https://w3id.org/ima/operation__RDetoixS3xEu0agR2CebaoB -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDetoixS3xEu0agR2CebaoB">
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDetoixS3xEu0agR2CebaoB">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3337,10 +3337,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation__RDggamr21qZlMqkQmyOdC7l -->
+    <!-- https://w3id.org/ima/operation__RDggamr21qZlMqkQmyOdC7l -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDggamr21qZlMqkQmyOdC7l">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation______Sparse_annotation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDggamr21qZlMqkQmyOdC7l">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation______Sparse_annotation"/>
         <related_term>Seed point selection</related_term>
         <oboInOwl:hasExactSynonym>Reference point assignment</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Fiducial placement</oboInOwl:hasNarrowSynonym>
@@ -3358,10 +3358,10 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__RDlueIjODveP3FyOknVAqo5 -->
+    <!-- https://w3id.org/ima/operation__RDlueIjODveP3FyOknVAqo5 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDlueIjODveP3FyOknVAqo5">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDlueIjODveP3FyOknVAqo5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <oboInOwl:hasNarrowSynonym>Camera bias correction</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3372,10 +3372,10 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__RDr8xcZEa4L3mZsslmhhee8 -->
+    <!-- https://w3id.org/ima/operation__RDr8xcZEa4L3mZsslmhhee8 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDr8xcZEa4L3mZsslmhhee8">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation__R7MFwdgojfmkZ07yWbdcda0"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDr8xcZEa4L3mZsslmhhee8">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation__R7MFwdgojfmkZ07yWbdcda0"/>
         <oboInOwl:hasRelatedSynonym>Channel shift correction</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3385,10 +3385,10 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__RDsrmC9l0bZw9kGJzGMCyY8 -->
+    <!-- https://w3id.org/ima/operation__RDsrmC9l0bZw9kGJzGMCyY8 -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDsrmC9l0bZw9kGJzGMCyY8">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_tracking"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDsrmC9l0bZw9kGJzGMCyY8">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_tracking"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3397,11 +3397,11 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__RDyyXyhf1oHK93opXhEnRND -->
+    <!-- https://w3id.org/ima/operation__RDyyXyhf1oHK93opXhEnRND -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RDyyXyhf1oHK93opXhEnRND">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_enhancement"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_reconstruction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RDyyXyhf1oHK93opXhEnRND">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_enhancement"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_reconstruction"/>
         <oboInOwl:hasExactSynonym>Noise reduction</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3411,10 +3411,10 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__RLtOI0poPsYRHzgXbAcr2E -->
+    <!-- https://w3id.org/ima/operation__RLtOI0poPsYRHzgXbAcr2E -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RLtOI0poPsYRHzgXbAcr2E">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_registration"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RLtOI0poPsYRHzgXbAcr2E">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_registration"/>
         <oboInOwl:hasExactSynonym>Affine image registration</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3425,10 +3425,10 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__Rhb4iyLUQWY4HnhPpuqNNI -->
+    <!-- https://w3id.org/ima/operation__Rhb4iyLUQWY4HnhPpuqNNI -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__Rhb4iyLUQWY4HnhPpuqNNI">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation__Rhb4iyLUQWY4HnhPpuqNNI">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3437,9 +3437,9 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation__RyCFuPLOeGxpcGjYbWcWWD -->
+    <!-- https://w3id.org/ima/operation__RyCFuPLOeGxpcGjYbWcWWD -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation__RyCFuPLOeGxpcGjYbWcWWD">
+    <owl:Class rdf:about="https://w3id.org/ima/operation__RyCFuPLOeGxpcGjYbWcWWD">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2990"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <oboInOwl:hasExactSynonym>Isolated object classification</oboInOwl:hasExactSynonym>
@@ -3451,9 +3451,9 @@ https://en.wikipedia.org/wiki/Region_growing</rdfs:seeAlso>
     
 
 
-    <!-- http://edamontology.org/operation___Clustering -->
+    <!-- https://w3id.org/ima/operation___Clustering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Clustering">
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Clustering">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <oboInOwl:hasDefinition>Clustering (or cluster analysis) is a process of grouping a set of data points (objects) in such a way that objects in the same group (forming a cluster) are, in some sense,  more similar to each other than to those in other groups (clusters).
 
@@ -3468,9 +3468,9 @@ Clustering is sometimes referred to as unsupervised classification.</oboInOwl:ha
     
 
 
-    <!-- http://edamontology.org/operation___Colocalisation_analysis -->
+    <!-- https://w3id.org/ima/operation___Colocalisation_analysis -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Colocalisation_analysis">
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Colocalisation_analysis">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3443"/>
         <oboInOwl:hasExactSynonym>Co-localisation analysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Co-localization analysis</oboInOwl:hasExactSynonym>
@@ -3483,10 +3483,10 @@ Clustering is sometimes referred to as unsupervised classification.</oboInOwl:ha
     
 
 
-    <!-- http://edamontology.org/operation___Image_convolution -->
+    <!-- https://w3id.org/ima/operation___Image_convolution -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Image_convolution">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Image_convolution">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasExactSynonym>Linear shift invariant image filtering</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3496,10 +3496,10 @@ Clustering is sometimes referred to as unsupervised classification.</oboInOwl:ha
     
 
 
-    <!-- http://edamontology.org/operation___Image_validation -->
+    <!-- https://w3id.org/ima/operation___Image_validation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Image_validation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Validation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Image_validation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Validation"/>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>operations</oboInOwl:inSubset>
@@ -3508,9 +3508,9 @@ Clustering is sometimes referred to as unsupervised classification.</oboInOwl:ha
     
 
 
-    <!-- http://edamontology.org/operation___Optimisation_or_refinement -->
+    <!-- https://w3id.org/ima/operation___Optimisation_or_refinement -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Optimisation_or_refinement">
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Optimisation_or_refinement">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <oboInOwl:hasExactSynonym>Optimization or refinement</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3521,10 +3521,10 @@ Clustering is sometimes referred to as unsupervised classification.</oboInOwl:ha
     
 
 
-    <!-- http://edamontology.org/operation___Parameter_optimisation -->
+    <!-- https://w3id.org/ima/operation___Parameter_optimisation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Parameter_optimisation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Optimisation_or_refinement"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Parameter_optimisation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Optimisation_or_refinement"/>
         <related_term>Model optimisation</related_term>
         <related_term>Model training</related_term>
         <oboInOwl:hasExactSynonym>Parameter optimization</oboInOwl:hasExactSynonym>
@@ -3538,10 +3538,10 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation___Pixel-based_colocalisation -->
+    <!-- https://w3id.org/ima/operation___Pixel-based_colocalisation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Pixel-based_colocalisation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Colocalisation_analysis"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Pixel-based_colocalisation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Colocalisation_analysis"/>
         <related_term>Manders coefficient</related_term>
         <oboInOwl:hasExactSynonym>Pixel-based co-localisation analysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pixel-based colocalization analysis</oboInOwl:hasExactSynonym>
@@ -3554,10 +3554,10 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation___Trajectory_analysis -->
+    <!-- https://w3id.org/ima/operation___Trajectory_analysis -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Trajectory_analysis">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_tracking"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Trajectory_analysis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_tracking"/>
         <oboInOwl:hasRelatedSynonym>Displacement analysis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Motility analysis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3568,9 +3568,9 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation___Validation -->
+    <!-- https://w3id.org/ima/operation___Validation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Validation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Validation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <hide_in_subset>bioimaging</hide_in_subset>
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
@@ -3580,10 +3580,10 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation___Wound-healing_analysis -->
+    <!-- https://w3id.org/ima/operation___Wound-healing_analysis -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation___Wound-healing_analysis">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_tracking"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation___Wound-healing_analysis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_tracking"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -3597,40 +3597,40 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation____Contrast_enhancement -->
+    <!-- https://w3id.org/ima/operation____Contrast_enhancement -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Contrast_enhancement">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_enhancement"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Contrast_enhancement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_enhancement"/>
         <oboInOwl:inSubset>Operation</oboInOwl:inSubset>
         <rdfs:label>Contrast enhancement</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation____Edge_detection -->
+    <!-- https://w3id.org/ima/operation____Edge_detection -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Edge_detection">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Object_detection"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Edge_detection">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Object_detection"/>
         <rdfs:comment>Relation with Feature enhancement</rdfs:comment>
         <rdfs:label>Edge detection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation____Model-based_segmentation -->
+    <!-- https://w3id.org/ima/operation____Model-based_segmentation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Model-based_segmentation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Model-based_segmentation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <rdfs:comment>ToDo: add a few more but not too many specialised concepts under here.</rdfs:comment>
         <rdfs:label>Model-based segmentation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation____Region_growing -->
+    <!-- https://w3id.org/ima/operation____Region_growing -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Region_growing">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Region_growing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <oboInOwl:hasBroadSynonym>Region-based segmentation</oboInOwl:hasBroadSynonym>
         <oboInOwl:inSubset>Operations</oboInOwl:inSubset>
         <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
@@ -3643,10 +3643,10 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation____Slice_rendering -->
+    <!-- https://w3id.org/ima/operation____Slice_rendering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Slice_rendering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Slice_rendering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <oboInOwl:hasExactSynonym>Cut plane rendering</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Slice viewing</oboInOwl:hasExactSynonym>
         <rdfs:label>Slice rendering</rdfs:label>
@@ -3654,19 +3654,19 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation____Surface_rendering -->
+    <!-- https://w3id.org/ima/operation____Surface_rendering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Surface_rendering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Surface_rendering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <rdfs:label>Surface rendering</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation____Top-hat_transform -->
+    <!-- https://w3id.org/ima/operation____Top-hat_transform -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation____Top-hat_transform">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Morphological_operations"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation____Top-hat_transform">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Morphological_operations"/>
         <oboInOwl:hasBroadSynonym>Hat transform</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDefinition>Top-hat transform is a morphological operation computed by subtracting the opened image from the original input image. It is used to extract small elements and details from given images.</oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>White top-hat transform</oboInOwl:hasExactSynonym>
@@ -3679,29 +3679,29 @@ Data augmentation (needs a less ambiguous label),</rdfs:comment>
     
 
 
-    <!-- http://edamontology.org/operation_____Cell_lineage_extraction -->
+    <!-- https://w3id.org/ima/operation_____Cell_lineage_extraction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Cell_lineage_extraction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_tracking"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Cell_lineage_extraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_tracking"/>
         <rdfs:label>Cell lineage extraction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_____Connected-component_analysis -->
+    <!-- https://w3id.org/ima/operation_____Connected-component_analysis -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Connected-component_analysis">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Connected-component_analysis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <related_term>Instance segmentation</related_term>
         <rdfs:label>Connected-component analysis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_____Frequency_domain -->
+    <!-- https://w3id.org/ima/operation_____Frequency_domain -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Frequency_domain">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Frequency_domain">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <related_term>FFT</related_term>
         <oboInOwl:hasExactSynonym>Transformation into frequency domain</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Fast Fourier transform</oboInOwl:hasRelatedSynonym>
@@ -3723,10 +3723,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_____Image_fusion -->
+    <!-- https://w3id.org/ima/operation_____Image_fusion -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Image_fusion">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Image_fusion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasDefinition>Image fusion is the process of gathering all the important information from multiple images, and their inclusion into fewer images, usually a single one.</oboInOwl:hasDefinition>
         <rdfs:label>Image fusion</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Image_fusion"/>
@@ -3734,10 +3734,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_____Intensity-based_registration -->
+    <!-- https://w3id.org/ima/operation_____Intensity-based_registration -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Intensity-based_registration">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_registration"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Intensity-based_registration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_registration"/>
         <oboInOwl:hasNarrowSynonym>Area-based registration</oboInOwl:hasNarrowSynonym>
         <rdfs:label>Intensity-based registration</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Image_registration#Intensity-based_vs_feature-based"/>
@@ -3745,11 +3745,11 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_____Overlap_analysis -->
+    <!-- https://w3id.org/ima/operation_____Overlap_analysis -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Overlap_analysis">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Feature_extraction"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Overlap_analysis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Feature_extraction"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <related_term>Jaccard index</related_term>
         <related_term>Sørensen-Dice coefficient</related_term>
         <oboInOwl:hasExactSynonym>Intersection analysis</oboInOwl:hasExactSynonym>
@@ -3759,19 +3759,19 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_____Ridge_detection -->
+    <!-- https://w3id.org/ima/operation_____Ridge_detection -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Ridge_detection">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Object_detection"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Ridge_detection">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Object_detection"/>
         <rdfs:label>Ridge detection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_____Superpixel_extraction -->
+    <!-- https://w3id.org/ima/operation_____Superpixel_extraction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Superpixel_extraction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Superpixel_extraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <oboInOwl:hasExactSynonym>Super-pixel extraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Super-voxel extraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Supervoxel extraction</oboInOwl:hasExactSynonym>
@@ -3780,19 +3780,19 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_____Velocity_extraction -->
+    <!-- https://w3id.org/ima/operation_____Velocity_extraction -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_____Velocity_extraction">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Feature_extraction"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_____Velocity_extraction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Feature_extraction"/>
         <rdfs:label>Velocity extraction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation______Centroid-based_clustering -->
+    <!-- https://w3id.org/ima/operation______Centroid-based_clustering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Centroid-based_clustering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Clustering"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Centroid-based_clustering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Clustering"/>
         <related_term>Fuzzy c-means clustering</related_term>
         <related_term>k-means clustering</related_term>
         <rdfs:label>Centroid-based clustering</rdfs:label>
@@ -3802,10 +3802,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation______Connectivity-based_clustering -->
+    <!-- https://w3id.org/ima/operation______Connectivity-based_clustering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Connectivity-based_clustering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Clustering"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Connectivity-based_clustering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Clustering"/>
         <oboInOwl:hasExactSynonym>Connectivity-based clustering</oboInOwl:hasExactSynonym>
         <rdfs:label>Hierarchical clustering</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Hierarchical_clustering"/>
@@ -3814,9 +3814,9 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation______Data_augmentation -->
+    <!-- https://w3id.org/ima/operation______Data_augmentation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Data_augmentation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Data_augmentation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3429"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3832,19 +3832,19 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation______Dense_annotation -->
+    <!-- https://w3id.org/ima/operation______Dense_annotation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Dense_annotation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Dense_annotation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3553"/>
         <rdfs:label>Dense image annotation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation______Density-based_clustering -->
+    <!-- https://w3id.org/ima/operation______Density-based_clustering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Density-based_clustering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Clustering"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Density-based_clustering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Clustering"/>
         <related_term>DBSCAN</related_term>
         <rdfs:label>Density-based clustering</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Cluster_analysis#Density-based_clustering"/>
@@ -3852,10 +3852,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation______Distribution-based_clustering -->
+    <!-- https://w3id.org/ima/operation______Distribution-based_clustering -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Distribution-based_clustering">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Clustering"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Distribution-based_clustering">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Clustering"/>
         <related_term>Gaussian mixture model (GMM)</related_term>
         <rdfs:label>Distribution-based clustering</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Cluster_analysis#Distribution-based_clustering"/>
@@ -3863,10 +3863,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation______Image-to-image_translation -->
+    <!-- https://w3id.org/ima/operation______Image-to-image_translation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Image-to-image_translation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Image-to-image_translation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <oboInOwl:hasDefinition>Image-to-image translation is a class of image processing techniques where the goal is to learn the mapping between an input image and an output image. It can be applied to a wide range of applications, such as collection style transfer, imaging modality transfer, object transfiguration, season transfer and photo enhancement.</oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym rdf:resource="https://www.wikidata.org/wiki/Q64711817"/>
         <oboInOwl:hasNarrowSynonym>Neural style transfer</oboInOwl:hasNarrowSynonym>
@@ -3877,47 +3877,47 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation______Machine_learning-based_data_generation -->
+    <!-- https://w3id.org/ima/operation______Machine_learning-based_data_generation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Machine_learning-based_data_generation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Machine_learning-based_data_generation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3429"/>
         <rdfs:label>Machine learning-based data generation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation______Manual_segmentation -->
+    <!-- https://w3id.org/ima/operation______Manual_segmentation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Manual_segmentation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Interactive_segmentation"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation______Dense_annotation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Manual_segmentation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Interactive_segmentation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation______Dense_annotation"/>
         <rdfs:label>Manual segmentation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation______Semi-automatic_segmentation -->
+    <!-- https://w3id.org/ima/operation______Semi-automatic_segmentation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Semi-automatic_segmentation">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Interactive_segmentation"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Semi-automatic_segmentation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Interactive_segmentation"/>
         <rdfs:label>Semi-automatic segmentation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation______Sparse_annotation -->
+    <!-- https://w3id.org/ima/operation______Sparse_annotation -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation______Sparse_annotation">
+    <owl:Class rdf:about="https://w3id.org/ima/operation______Sparse_annotation">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3553"/>
         <rdfs:label>Sparse image annotation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_______Ion_and_optical_other_image_co-registration -->
+    <!-- https://w3id.org/ima/operation_______Ion_and_optical_other_image_co-registration -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_______Ion_and_optical_other_image_co-registration">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_registration"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_______Ion_and_optical_other_image_co-registration">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_registration"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_input"/>
@@ -3941,9 +3941,9 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_______Ion_image_filtering_by_masses -->
+    <!-- https://w3id.org/ima/operation_______Ion_image_filtering_by_masses -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_______Ion_image_filtering_by_masses">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_______Ion_image_filtering_by_masses">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3695"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3956,9 +3956,9 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_______Ion_image_filtering_by_pixels_voxels_ROI -->
+    <!-- https://w3id.org/ima/operation_______Ion_image_filtering_by_pixels_voxels_ROI -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_______Ion_image_filtering_by_pixels_voxels_ROI">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_______Ion_image_filtering_by_pixels_voxels_ROI">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3695"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3971,10 +3971,10 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_______ROI_selection -->
+    <!-- https://w3id.org/ima/operation_______ROI_selection -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_______ROI_selection">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_______Selection"/>
+    <owl:Class rdf:about="https://w3id.org/ima/operation_______ROI_selection">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_______Selection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_input"/>
@@ -3988,18 +3988,18 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     
 
 
-    <!-- http://edamontology.org/operation_______Selection -->
+    <!-- https://w3id.org/ima/operation_______Selection -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_______Selection">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_______Selection">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2409"/>
         <rdfs:label>Selection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/operation_______Tissue_imaging -->
+    <!-- https://w3id.org/ima/operation_______Tissue_imaging -->
 
-    <owl:Class rdf:about="http://edamontology.org/operation_______Tissue_imaging">
+    <owl:Class rdf:about="https://w3id.org/ima/operation_______Tissue_imaging">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3382"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_____Histology"/>
         <rdfs:subClassOf>
@@ -4016,7 +4016,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     <!-- http://edamontology.org/operations________001 -->
 
     <owl:Class rdf:about="http://edamontology.org/operations________001">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_visualisation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_visualisation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -4034,7 +4034,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     <!-- http://edamontology.org/operations________002 -->
 
     <owl:Class rdf:about="http://edamontology.org/operations________002">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_processing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_processing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -4052,7 +4052,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     <!-- http://edamontology.org/operations________003 -->
 
     <owl:Class rdf:about="http://edamontology.org/operations________003">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_segmentation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_segmentation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -4107,7 +4107,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     <!-- http://edamontology.org/operations________006 -->
 
     <owl:Class rdf:about="http://edamontology.org/operations________006">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Pixel_classification"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Pixel_classification"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -4125,7 +4125,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     <!-- http://edamontology.org/operations________007 -->
 
     <owl:Class rdf:about="http://edamontology.org/operations________007">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Image_classification"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Image_classification"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -4143,7 +4143,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
     <!-- http://edamontology.org/operations________008 -->
 
     <owl:Class rdf:about="http://edamontology.org/operations________008">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation___Pixel-based_colocalisation"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation___Pixel-based_colocalisation"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
@@ -4545,7 +4545,7 @@ Whereas  the standard Fourier transform is only localized in frequency, wavelets
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
-                <owl:someValuesFrom rdf:resource="http://edamontology.org/operation__R9Qf06vxvFj2UbAk7pW3IMG"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/ima/operation__R9Qf06vxvFj2UbAk7pW3IMG"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasBroadSynonym>Neuron image informatics</oboInOwl:hasBroadSynonym>
@@ -5506,7 +5506,7 @@ It&apos;s a good question how deep to go. Currently we&apos;re going less deep w
         <oboInOwl:inSubset>edam</oboInOwl:inSubset>
         <oboInOwl:inSubset>topics</oboInOwl:inSubset>
         <rdfs:label>Unsupervised learning</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://edamontology.org/operation___Clustering"/>
+        <rdfs:seeAlso rdf:resource="https://w3id.org/ima/operation___Clustering"/>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Unsupervised_learning"/>
     </owl:Class>
     
@@ -6553,7 +6553,7 @@ Let&apos;s get back to it with definitions and relations, ...</rdfs:comment>
     <!-- http://edamontology.org/topic______Stereology -->
 
     <owl:Class rdf:about="http://edamontology.org/topic______Stereology">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_Feature_extraction"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_Feature_extraction"/>
         <rdfs:label>Stereology</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Stereology"/>
     </owl:Class>
@@ -7107,7 +7107,7 @@ Let&apos;s get back to it with definitions and relations, ...</rdfs:comment>
     <!-- http://edamontology.org/topic_______Multiplexed_immunohistochemistry -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_______Multiplexed_immunohistochemistry">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_______Tissue_imaging"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_______Tissue_imaging"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_______Immunostaining"/>
         <oboInOwl:hasNarrowSynonym>Co-detection by indexing (CODEX)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Cytometry by cyclic immunofluorescence (CyCIF)</oboInOwl:hasNarrowSynonym>
@@ -7228,7 +7228,7 @@ Let&apos;s get back to it with definitions and relations, ...</rdfs:comment>
     <!-- http://edamontology.org/topic_______Spatial_metabolomics -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_______Spatial_metabolomics">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_______Tissue_imaging"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_______Tissue_imaging"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/can_use"/>
@@ -7243,7 +7243,7 @@ Let&apos;s get back to it with definitions and relations, ...</rdfs:comment>
     <!-- http://edamontology.org/topic_______Spatial_proteomics -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_______Spatial_proteomics">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_______Tissue_imaging"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_______Tissue_imaging"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://edamontology.org/can_use"/>
@@ -7258,7 +7258,7 @@ Let&apos;s get back to it with definitions and relations, ...</rdfs:comment>
     <!-- http://edamontology.org/topic_______Spatial_transcriptomics -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_______Spatial_transcriptomics">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_______Tissue_imaging"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_______Tissue_imaging"/>
         <rdfs:label>Spatial transcriptomics</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Spatial_transcriptomics"/>
     </owl:Class>
@@ -7309,7 +7309,7 @@ Let&apos;s get back to it with definitions and relations, ...</rdfs:comment>
     <!-- http://edamontology.org/topic_______Tissue_cytometry -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_______Tissue_cytometry">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_______Tissue_imaging"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ima/operation_______Tissue_imaging"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_______Imaging_cytometry"/>
         <oboInOwl:hasNarrowSynonym>Multiplexed cytometry</oboInOwl:hasNarrowSynonym>
         <rdfs:label>Tissue cytometry</rdfs:label>
